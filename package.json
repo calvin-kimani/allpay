@@ -1,0 +1,39 @@
+{
+  "name": "allpay",
+  "version": "0.1.0",
+  "module": "./src/index.ts",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "description": "Allpay payment gateway",
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\""
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "prettier": "^3.0.3",
+    "typescript": "^5.0.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/calvin-kimani/allpay.git"
+  },
+   "keywords": [
+    "allpay",
+    "payment",
+    "payment processing",
+    "payment gateway",
+    "allpay payment gateway",
+    "typescript"
+  ],
+  "author": "Calvin Kimani",
+  "license": "MIT",
+  "files": [
+    "dist/*.{ts,js}",
+    "dist/*.d.ts"
+  ]
+}
